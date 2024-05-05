@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Company</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #87ceeb;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header a {
+            color: #1a53ff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+      
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+       .product {
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+       .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #87ceeb;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+
+        form label {
+            margin-top: 20px;
+        }
+
+        form input, textarea {
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        form button {
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #87ceeb;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+    </header>
+    <main>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>This is a description of Product 1.</p>
+        </div>
+        <!-- Repeat the above div for 10 products -->
+    </main>
+    <footer>
+        <p>Copyright © 2022 Retail Company</p>
+        <form>
+            <h3>Contact Us</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <
